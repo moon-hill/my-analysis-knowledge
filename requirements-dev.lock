@@ -173,6 +173,7 @@ matplot==0.1.9
 matplotlib==3.10.7
     # via japanize-matplotlib
     # via matplot
+    # via seaborn
 matplotlib-inline==0.1.7
     # via ipykernel
     # via ipython
@@ -207,6 +208,7 @@ numpy==2.3.3
     # via pandas
     # via scikit-learn
     # via scipy
+    # via seaborn
 packaging==25.0
     # via ipykernel
     # via jupyter-events
@@ -218,6 +220,7 @@ packaging==25.0
     # via twine
 pandas==2.3.3
     # via my-analysis-knowledge
+    # via seaborn
 pandocfilters==1.5.1
     # via nbconvert
 parso==0.8.5
@@ -304,6 +307,8 @@ scikit-learn==1.7.2
     # via my-analysis-knowledge
 scipy==1.16.2
     # via scikit-learn
+seaborn==0.13.2
+    # via my-analysis-knowledge
 send2trash==1.8.3
     # via jupyter-server
 setuptools==80.9.0
